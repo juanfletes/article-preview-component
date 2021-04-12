@@ -8,13 +8,18 @@
   
   <title>Article preview component</title>
 
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
 
   <main class="main">
     <article class="card">
       <header class="card-header">
-        <img src="./images/drawers.jpg" alt="drawers">
+        <img class="card-header-drawers" src="./images/drawers.jpg" alt="drawers">
       </header>
 
       <section class="card-body">
@@ -30,12 +35,14 @@
       </section>
 
       <footer class="card-footer">
-        <img class="card-footer-avatar" src="./images/avatar-michelle.jpg" alt="avatar-michelle">
-        <div class="card-footer-details">
-          <h2>Michelle Appleton</h2>
-          <span>28 Jun 2020</span>
+        <div class="card-footer-credits">
+          <img class="card-footer-credits-avatar" src="./images/avatar-michelle.jpg" alt="avatar-michelle">
+          <div class="card-footer-credits-details">
+            <h2>Michelle Appleton</h2>
+            <span>28 Jun 2020</span>
+          </div>
         </div>
-        <img class="card-footer-shared-button" src="./images/icon-share.svg" alt="Share">
+        <span class="card-footer-shared-button"></span>
       </footer>
         
     </article>

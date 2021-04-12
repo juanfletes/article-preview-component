@@ -1,0 +1,114 @@
+body {
+  font-size: 10px;
+  font-family: 'Manrope', Arial, Helvetica, sans-serif;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.3rem;
+  height: 100vh;
+  background-color: #ecf2f8;
+}
+
+.card {
+  width: 90vw;
+  height: 85vh;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 40px -10px #48556a;
+          box-shadow: 0px 0px 40px -10px #48556a;
+}
+
+.card-header {
+  height: 235px;
+  overflow: hidden;
+}
+
+.card-header-drawers {
+  height: auto;
+  width: 100%;
+}
+
+.card-body {
+  padding: 20px 30px;
+  line-height: 25px;
+}
+
+.card-body h1 {
+  font-size: 1.1rem;
+  color: #48556a;
+}
+
+.card-body p {
+  font-size: 0.9rem;
+  line-height: 22px;
+  color: #9eafc2;
+}
+
+.card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 30px;
+}
+
+.card-footer-credits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-footer-credits-avatar {
+  display: inline-block;
+  height: 40px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.card-footer-credits-details {
+  font-size: 0.6rem;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.card-footer-credits-details h2 {
+  margin: 0px;
+  color: #48556a;
+}
+
+.card-footer-credits-details span {
+  margin-top: 5px;
+  font-size: 0.7rem;
+  display: inline-block;
+  color: #9eafc2;
+}
+
+.card-footer-shared-button {
+  display: block;
+  border-radius: 50%;
+  background-image: url("../images/icon-share.svg");
+  background-color: #ecf2f8;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+/*# sourceMappingURL=style.css.map */

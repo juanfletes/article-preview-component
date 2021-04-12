@@ -1,0 +1,100 @@
+$very-dark-grayish-blue: hsl(217, 19%, 35%);
+$desaturated-dark-blue: hsl(214, 17%, 51%);
+$grayish-blue: hsl(212, 23%, 69%);
+$light-grayish-blue: hsl(210, 46%, 95%);
+
+body  {
+  font-size: 10px;
+  font-family: 'Manrope', Arial, Helvetica, sans-serif;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  height: 100vh;
+  background-color: $light-grayish-blue;
+}
+
+.card {
+  width: 90vw;
+  height: 85vh;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 40px -10px $very-dark-grayish-blue;
+
+  &-header {
+    height: 235px;
+    overflow: hidden;
+
+    &-drawers{
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  &-body{
+    padding: 20px 30px;
+    line-height: 25px;
+    h1 {
+      font-size: 1.1rem;
+      color: $very-dark-grayish-blue;
+    }
+    p {
+      font-size: 0.9rem;
+      line-height: 22px;
+      color: $grayish-blue;
+    }
+  }
+
+  &-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+
+    &-credits {
+      display: flex;
+      justify-content: center;
+
+      &-avatar{
+        display: inline-block;
+        height: 40px;
+        width: auto;
+        border-radius: 50%;
+      }
+
+      &-details{
+        font-size: 0.6rem;
+        display: inline-block;
+        margin-left: 10px;
+        h2{
+          margin: 0px;
+          color: $very-dark-grayish-blue;
+        }
+        span{
+          margin-top: 5px;
+          font-size: 0.7rem;
+          display: inline-block;
+          color: $grayish-blue;
+        }
+
+      }
+    }
+
+    &-shared-button{
+      display: block;
+      border-radius: 50%;
+      background-image: url("../images/icon-share.svg");
+      background-color: $light-grayish-blue;
+      background-position: center center;
+      background-repeat: no-repeat;
+      width: 40px;
+      height: 40px;
+    }
+
+  }
+
+}
